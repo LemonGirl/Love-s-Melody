@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
+	<title>Love's Melody</title>
+	<link href="style/reset.css" rel="stylesheet" type="text/css" />
+	<link href="style/index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<!--背景-->
+	<div id="bg">
+		<img id="bgp" src="images/bg.png" />
+	</div>
+
+<!--登录框-->
+	<div id="login">
+
+		<div id="theme">
+		</div>
+
+        <div id="username">
+            <!--<p>username</p>-->
+            <!--<input type="text" name="username"/>/\-->
+            <input type="text" value="username"
+                   onfocus="if(this.value==defaultValue) {this.value='';this.type='username';this.style.color='#000'}"
+                   onblur="if(!value) {value=defaultValue; this.type='text';this.style.color='#787878'}" />
+        </div>
+
+        <div id="password">
+            <!--<p>password</p>-->
+            <!--<input type="text" name="password"/>-->
+            <input type="text" value="password"
+                   onfocus="if(this.value==defaultValue) {this.value='';this.type='password';this.style.color='#000'}"
+                   onblur="if(!value) {value=defaultValue; this.type='text';this.style.color='#787878'}" />
+        </div>
+
+        <p>forgotten?</p>
+
+        <div id="button1">
+            <!--<p>Login</p>-->
+            <form>
+                <input type="button" value="Login ">
+            </form>
+        </div>
+
+        <div id="button2">
+            <!--<p>Signup</p>-->
+            <form>
+                <input type="button" value="Signup ">
+            </form>
+        </div>
+
+	</div>
+
+</body>

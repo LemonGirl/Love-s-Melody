@@ -1,0 +1,182 @@
+﻿@charset "utf-8";
+/*CSS Document*/
+
+html,body{ 
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	margin:0px;
+}
+
+#bg{ 
+	position:absolute;
+	width:100%; 
+	height:100%;
+	z-index:-1;
+	margin:0px;
+	overflow:hidden;
+}
+
+#bgp{
+	position:fixed;
+	height:100%;
+	width:100%;
+	margin:0px;
+}
+
+#login{
+	position:relative;
+	overflow:hidden;
+	width:440px;
+	height:411px;
+	margin-left:280px;
+    	margin-top: 165px;
+	background-image:url(../images/login-bg.png);
+}
+
+#login p{
+    color: #fff;
+    font-family: Arial,微软雅黑，宋体，serif ;
+    font-size: 14px;
+    padding-left: 336px;
+    padding-top: 10px;
+}
+
+#theme{
+	overflow:hidden;
+	width:289px;
+	height:39px;
+	margin-top:18px;
+	margin-left:90px;
+	background-image:url(../images/theme.png);
+}
+
+
+/*图片背景*/
+
+/*#username{*/
+    /*width: 370px;*/
+    /*height:60px;*/
+    /*margin-top:35px ;*/
+    /*margin-left: 36px;*/
+    /*background-image: url(../images/text.png);*/
+/*}*/
+
+/*#password {*/
+    /*overflow: hidden;*/
+    /*width: 370px;*/
+    /*height: 60px;*/
+    /*margin-top: 40px;*/
+    /*margin-left: 36px;*/
+    /*background-image: url(../images/text.png);*/
+/*}*/
+
+#username input,#password input{
+    overflow: hidden;
+    width:351px;
+    height:56px;
+    margin-top:2px;
+    margin-left: 2px;
+    background-color:transparent;
+    border:none;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#787878;
+    font-size:24px;
+    padding-left:15px;
+}
+
+#username p,#password p{
+    color: #787878;
+    font-family: Arial,微软雅黑，宋体，serif ;
+    font-size: 24px;
+    padding-left: 16px;
+    padding-top: 16px;
+}
+
+#button1{
+    /*overflow: hidden;*/
+    width: 171px;
+    height:60px;
+    margin-top:40px ;
+    margin-left: 36px;
+    background-image: url(../images/button.png);
+}
+
+#button2{
+    /*overflow: hidden;*/
+    width: 171px;
+    height:60px;
+    margin-top:-60px ;
+    margin-left: 236px;
+    background-image: url(../images/button.png);
+}
+
+#button2 input,#button1 input{
+    width:165px;
+    height:54px;
+    margin: 3px;
+    background-color:transparent;
+    border:none;
+    color: #fff;
+    font-family: Arial,微软雅黑，宋体，serif ;
+    font-size: 30px;
+    padding-left: 4px;
+    padding-top: 1px;
+}
+
+/*#password input{*/
+    /*overflow: hidden;*/
+    /*width:351px;*/
+    /*height:56px;*/
+    /*margin-top:-42px;*/
+    /*margin-left: 2px;*/
+    /*background-color:transparent;*/
+    /*border:none;*/
+    /*font-family:Arial, Helvetica, sans-serif;*/
+    /*color:#000;*/
+    /*font-size:24px;*/
+    /*padding-left:15px;*/
+/*}*/
+
+/*#button1 p{*/
+/*color: #fff;*/
+/*font-family: Arial,微软雅黑，宋体，serif ;*/
+/*font-size: 30px;*/
+/*padding-left:48px;*/
+/*padding-top: 13px;*/
+/*}*/
+
+/*#button2 p{*/
+/*margin-top: -54px;*/
+/*color: #fff;*/
+/*font-family: Arial,微软雅黑，宋体，serif ;*/
+/*font-size: 30px;*/
+/*padding-left: 38px;*/
+/*padding-top: 13px;*/
+/*}*/
+
+
+/*编译背景*/
+#username{
+    padding: 0px;
+    width :370px;
+    height: 60px;
+    background: #dddddd;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin-top: 35px;
+    margin-left: 36px;
+}
+
+#password{
+    padding: 0px;
+    width :370px;
+    height: 60px;
+    background: #dddddd;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 36px;
+}
